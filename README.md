@@ -3,7 +3,7 @@
 Diplomarbeit von Olav Krämer
 Dortmund im Mai 1989
 Betreuer: Herr Dr. rer.nat. Rainer Brück
-Lehrstuhl 1, Abteilung Informatik
+Lehrstuhl 1, Abteilung Informatik 
 Universität Dortmund
 
 ## Inhalt
@@ -26,4 +26,4 @@ Universität Dortmund
 * [Anhang C](anhang_c.md)
 * [Literatur](literatur.md)
 
-## OCR mit [Tesseract](https://github.com/tesseract-ocr)
+OCR mit [Tesseract](https://github.com/tesseract-ocr)
