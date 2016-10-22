@@ -1,4 +1,4 @@
-3. Die Sprache DINGO—II zur Spezifikation von Technologien
+# 3. Die Sprache DINGO—II zur Spezifikation von Technologien
 
 In den folgenden Abschnitten wird die Sprache DINGO-II anhand der
 Konstrukte vorgestellt, die sie für eine Technologiespezifikation zur Verfügung
@@ -138,7 +138,7 @@ Die Syntax einer Standardobjektdeklaration berücksichtigt deren Auffassung als
 Spezialisierung eines Technologieobjektes, in dem bestimmte Freiheitsgrade der
 Layoutausprägungen durch feste Wertzuweisungen eingeschränkt sind.
 
-3.2. 1 Deklarationsteil
+## 3.2. 1 Deklarationsteil
 
 declarations : dedaraüon
 process IDENTIFIER

@@ -1,4 +1,4 @@
-8. Der DROOLY—Compiler
+# 8. Der DROOLY—Compiler
 
 Das eigentliche Backend des DINGO—II Compilers [Krä 891 gliedert sich in neun
 Untermodule, die in den Abschnitten 8.2 bis 8.10 beschrieben werden. Der
@@ -6,7 +6,7 @@ Untermodule, die in den Abschnitten 8.2 bis 8.10 beschrieben werden. Der
 Präprozessor simuliert während der Entwicklung das Frontend des DINGO—II
 Compilers.
 
-8. l Präprozessor
+# 8.1 Präprozessor
 
 Der Präprozessor ist ein eigenständiges Programm und erfüllt während der
 Entwicklung des DROOLY—Compilers zwei Aufgaben:
@@ -135,7 +135,7 @@ Nachdem das Ende der Eingabedatei erreicht ist, wird die Symboltabelle in die
 externe Datei geschrieben und der Präprozessor beendet seine Arbeit mit dem Exit—
 Code 0.
 
-8.2 Hilfsmodule für Fehlermeldungen, Dekodierung und
+## 8.2 Hilfsmodule für Fehlermeldungen, Dekodierung und
 Überprüfung der Codeabdeckung
 
 Diese drei Module fassen bestimmte Aufgaben zusammen, die für eine leichte
@@ -339,7 +339,7 @@ Der DROOLY-Compiler (main.c) ' 65
 
 
 
-8.3 Hauptmodul main.c
+## 8.3 Hauptmodul main.c
 
 Umgebung
 
@@ -412,7 +412,7 @@ Zuletzt werden die erzeugten Tabellen mithilfe der Funktion write_tec in eine Da
 geschrieben und durch einen Aufruf von finish alle offenen Dateien geschrieben
 und geschlossen.
 
-8.4 Scanner scanner.c
+## 8.4 Scanner scanner.c
 
 Die einfache lexikalische Struktur von DROOLY erlaubt eine leichte Kodierung
 des Scanners ohne Verwendung des Scannergenerators Lex. Von Lex generierte
@@ -556,7 +556,7 @@ Als Rückgabewert liefert der Scanner bei Bezeichnern von Pseudoobjekten den
 jeweiligen Tokencode, bei self und normalen Objektbezeichnern den Code des Tokens
 IDENTIFIER.
 
-8.5 Parser parser.c
+## 8.5 Parser parser.c
 
 Der im Compiler—Backend benutzte Parser zur syntaktischen Analyse einer
 DROOLY—Datei wird aus einer LALR(I)-Grammatik mit an den Ableitungsregeln
@@ -1194,7 +1194,7 @@ Klasse durch die aktuellen Parameter eindeutig bestimmt wird. Ein CLASSTEST,
 welches die Klasse eines solchen ehemaligen PARAMS abfragt. kann ausgewertet und
 durch seinen then— bzw. _eﬁ—Zweig ersetzt werden.
 
-8.6 Objekte object.c
+## 8.6 Objekte object.c
 
 Das Modul object.c des Compiler—Backends stellt die Objekttabelle als
 abstrakten Datentyp zur Verfügung. Darin definiert ist die Datenstruktur der
@@ -2524,7 +2524,7 @@ Der DROOLY—Compiler (expr.c) 97
 
 
 
-8.7 Wertausdrücke expr.c
+## 8.7 Wertausdrücke expr.c
 
 Das Modul expr.c des Compiler—Backends stellt die Ausdruckstabelle als
 abstrakten Datentyp zur Verfügung. Darin definiert ist die Datenstruktur der
@@ -3742,7 +3742,7 @@ Der DROOLY-Compiler (validate.c) ' 117
 
 
 
-8.9 Erweiterte semantische Überprüfungen validate.c
+## 8.9 Erweiterte semantische Überprüfungen validate.c
 
 Im normalen Übersetzungsvorgang wird die Semantik der Topologieoperatoren
 nicht zu Überprüfungen herangezogen. Durch Setzen der Option -v beim Aufruf des

@@ -1,4 +1,4 @@
-5. Die Symboltabelle
+# 5. Die Symboltabelle
 
 Die DINGO-II Symboltabelle stellt neben der im folgenden Kapitel vorgestellten
 Zwischensprache DROOLY die zweite Schnittstelle zwischen Frontend und Backend

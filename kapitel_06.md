@@ -1,4 +1,4 @@
-6. Übersetzung DINGO-II nach DROOLY
+# 6. Übersetzung DINGO-II nach DROOLY
 
 Nachdem die Schnittstellen zwischen Frontend und Backend (Symboltabelle und
 DROOLY—Zwischenformat) beschrieben sind, soll in diesem Abschnitt eine Anleitung

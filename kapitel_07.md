@@ -1,4 +1,4 @@
-7. Die Tabellen
+# 7. Die Tabellen
 
 Das Compiler-Backend erzeugt aus einer Technologiebeschreibung in der
 DROOLY—Zwischenspraehe zwei Tabellen, die Objekttabelle und die
@@ -37,7 +37,7 @@ bestimmte Objektdefinition. Sie erlaubt andererseits den gezielten Zugriff auf a
 ein Objekt betreffenden Daten, ohne andere Objektdefinitionen nach verstreuten
 weiteren Informationen durchsuchen zu müssen.
 
-7. 1 Objekttabelle
+# 7.1 Objekttabelle
 
 Die Objekttabelle ist als Vektor von Objektstrukturen organisiert. Jedem
 Objekt ist in eindeutiger Index in diesem Vektor zugeordnet. Jede Objektstruktur

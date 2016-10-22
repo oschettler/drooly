@@ -1,6 +1,6 @@
-4. Die DROOLY Zwischensprache
+# 4. Die DROOLY Zwischensprache
 
-4. 1 Grundlagen
+## 4.1 Grundlagen
 
 Ziel der Definition einer Zwischensprache für den DINGO—II Compiler war es,
 eine saubere Schnittstelle zwischen Compiler-Frontend (dessen Entwicklung nicht
@@ -35,7 +35,7 @@ Philosophie der objektorientierten Datenhaltung in IMAGE ist ebenso bereits
 durch mehrere Diplomarbeiten zu diesem Thema [Mör 88], [Pre 88], [Wro 871
 weitgehend vorgegeben.
 
-4.2 Vererbungsmechanismen
+## 4.2 Vererbungsmechanismen
 
 DINGO—II kennt als objektorientierte Sprache zwei Vererbungsmechanismen, die
 zwar an unterschiedlichen Stellen bei der Technologiespezifikation auftreten, die
@@ -96,7 +96,7 @@ eienderd device minimum_p_Trene
 
 Abb. 5.2: Un terk]assenbildung
 
-4.3 Die Beispieltechnologie in DROOLY
+## 4.3 Die Beispieltechnologie in DROOLY
 
 Um die folgende Beschreibung der Syntax von DROOLY zu veranschaulichen,
 wird hier zunächst ein Beispiel für eine Technologiespezifikation in DROOLY
@@ -153,7 +153,7 @@ a_ll gt indist [ ] gt well
 gl_l gt indist [ >= 20 ] gt well
 dist [ >= 30 ] &lf &lf
 
-4.4 Syntaktische Struktur
+## 4.4 Syntaktische Struktur
 
 Für die Beschreibung der DROOLY—Syntax wird dasselbe Format wie bei der
 DINGO—II Beschreibung verwendet. Da DROOLY als Zwischenformat nicht zur direkten
@@ -251,7 +251,7 @@ DROOLY 33
 impliziter Präfix für alle im statischen Kontext des "lokalen" Moduls benutzten
 Bezeichner.
 
-4.5 Layerdefinitionen
+## 4.5 Layerdefinitionen
 
 Alle Informationen aus dem DINGO—II Deklarationsteil werden in der
 Symboltabelle gespeichert. Da jedoch Layer als unstrukurierte Objektklassen
@@ -274,7 +274,7 @@ direkt an einen Layer zu binden. Sollte so etwas notwendig werden, ist eine eige
 Objektklasse mit dem Layer als einziger Unterstruktur zu definieren, innerhalb
 welcher Design Rules für die Unterstruktur angegeben werden können.
 
-4.6 Objektklassendefinitionen
+## 4.6 Objektklassendefinitionen
 
 Bedingt durch die Notwendigkeit, Standardobjekten den Bezeichner ihrer
 Oberklasse mitzugeben, gibt es zwei Typen von Objektklassendefinitionen:
@@ -318,7 +318,7 @@ dieser komplizierten Struktur vermieden. Schließlich steht bei einer Zwischensp
 nicht die einfache Lesbarkeit im Vordergrund, sondern ihre Ausdrucksstärke und
 einfache Verarbeitbarkeit.
 
-4.7 Deklaration von Unterstrukturen
+## 4.7 Deklaration von Unterstrukturen
 Wie in DINGO-il ist auch in DROOLY die Deklaration von Unterstrukturen auf
 
 verschiedene Art möglich. Die unterschiedlichen Deklarationen werden jeweils durch
@@ -356,7 +356,7 @@ quantifizierten Geometrieeinschränkungen benutzt wird (su). Erlaubt sind an die
 Stelle nur über 93 verkettete Alternativen oder die Angabe einer unteren und einer
 oberen Intervallgrenze.
 
-4.8 Beschreibungsteil
+## 4.8 Beschreibungsteil
 
 Nach der Deklaration aller Unterstrukturen folgt der Beschreibungsteil:
 
@@ -499,7 +499,7 @@ DROOLY ' 37
 
 
 
-4.9 Wertausdrücke
+## 4.9 Wertausdrücke
 
 expression : "[" [ body ] "]"
 body : simple_body

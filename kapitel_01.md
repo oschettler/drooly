@@ -1,10 +1,4 @@
-Einleitung 1
-
-
-
-
-
-1. Einleitung
+# 1. Einleitung
 
 Mit dem Entstehen wirtschaftlich einsetzbarer Computer wurde zu Beginn der
 60er Jahre eine rasende Entwicklung der Digitaltechnik eingeleitet. Anfang der
@@ -57,7 +51,7 @@ Standardisierung des Entwurfsprozesses den kostengünstigen Entwurf
 kundenspezifischer Chips mittlerer Größe bei mäßigen Anforderungen an Kompaktheit
 und Schnelligkeit des Entwurfs [Hör 86].
 
-1.1 Der IC—Entwurfsprozeß
+## 1.1 Der IC—Entwurfsprozeß
 
 Das Ziel des Entwurfs integrierter Schaltungen ist die schrittweise Erstellung
 eines vollständigen Satzes von Fertigungsunterlagen, die beim nachfolgenden
@@ -140,7 +134,7 @@ Das Y—Modell kann dazu benutzt werden, eine Entwurfsmethodik in ihren
 einzelnen Schritten darzustellen. Eine andere Anwendung ist die Einordnung von
 Teilaufgaben, die ein CAD—System ausführt.
 
-1.2 Die Bestandteile eines CAD-Systems für den physikalischen Entwurf
+## 1.2 Die Bestandteile eines CAD-Systems für den physikalischen Entwurf
 
 Allgemein versteht man unter einem physikalischen Entwurf alle Dokumente,
 die unter der physikalischen Sichtweise erstellt werden. In der vorliegenden Arbeit
@@ -210,7 +204,7 @@ Einleitung ' 4
 
 
 
-1 .2. 1 Applikationen
+### 1.2.1 Applikationen
 
 Die Applikationen sind die eigentlichen Benutzer des IMAGE-Systems.
 Entsprechend muß die Datenhaltung auf die Unterstützung der einzelnen
@@ -239,7 +233,7 @@ systemen. Weitere Beispiele für konstruktive Applikationen sind
 - Design—Rule-Anpasser
 — Plazierungs- und Verdrahtungssysteme
 
-1.2.2 Technologiespezifikation
+### 1.2.2 Technologiespezifikation
 
 Ein wesentlicher Bestandteil des IMAGE-Systems und der Angelpunkt für die
 vorliegende Arbeit ist die explizite Repräsentation von Technologiedaten. Viele
@@ -288,7 +282,7 @@ Ansatz realisiert. Technologiedaten werden nicht implizit in den Code der
 beteiligten Applikationen hineinprogrammiert, sondern werden in einer formalen
 Sprache beschrieben und von außen dem System zugänglich gemacht.
 
-1 .2.3 Maskendaten
+### 1.2.3 Maskendaten
 
 Um Layouts mit der Umwelt austauschen zu können, gibt es im IMAGE—System
 eine Schnittstelle für Maskendaten. Geometrische Layouts von anderen CAD-
@@ -296,7 +290,7 @@ Systemen können über diese Schnittstelle eingelesen und in die interne Darstel
 umgewandelt werden. Ebenso werden erstellte Layouts über diese Schnittstelle in
 standardisierten Formaten ausgelesen.
 
-1 .2.4 Datenhaltung
+### 1.2.4 Datenhaltung
 
 Heute existieren vorwiegend CAD—Werkzeuge, die für eine spezielle Teilaufgabe
 des Layout-Entwurfsprozesses ausgelegt sind. Diese Systeme sind aufgrund ihrer

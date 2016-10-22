@@ -1,6 +1,6 @@
-2. Die Technologiespezifikation in der Literatur
+# 2. Die Technologiespezifikation in der Literatur
 
-2. 1 Bisherige Arbeiten
+## 2.1 Bisherige Arbeiten
 
 Die einfachsten datengetriebenen Ansätze zur Speicherung von
 Technologiedaten für Layout-Applikationen finden sich in der Literatur in Form
@@ -261,7 +261,7 @@ Die Technologiespezifikation ' 1 2
 von einer Technologie an ihre Söhne vererbt. Es ist jedoch auch möglich, ererbte
 Design Rules mit eigenen Regeln zu überschreiben.
 
-2.2 Bestandteile einer Technologiespezifikation
+## 2.2 Bestandteile einer Technologiespezifikation
 
 Im vorigen Abschnitt wurden verschiedene Ansätze für Technologiespezi—
 fikationen vorgestellt. Aude und Kahn identifizieren zur Einteilung der
@@ -335,7 +335,7 @@ können. Der Kontext kann dabei die Topologie eines Bauteils sein oder auch
 
 , bestimmte elektrische Gegebenheiten auf den betroffenen Objekten.
 
-2.3 Sprachphilosophie
+## 2.3 Sprachphilosophie
 
 Im Abschnitt 2.1 wurde deutlich gemacht, daß es sehr unterschiedliche
 Ansätze zur Formulierung von Technologiespezifikationen gibt. Besonders geeignet
@@ -370,7 +370,7 @@ Die Technologiespezifikation 14
 
 
 
-2.4 Integration in ein CAD—System
+## 2.4 Integration in ein CAD—System
 
 Technologien werden im IMAGE-System in der speziell dafür einwickelten
 Beschreibungssprache DINGO—II spezifiziert. DINGO—II erfüllt die genannten
